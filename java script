@@ -1,0 +1,56 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const chatInput = document.getElementById('chat-input');
+    const messages = document.getElementById('messages');
+    const typingIndicator = document.getElementById('typing-indicator');
+
+    chatInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            const userMessage = chatInput.value;
+            if (userMessage.trim()) {
+                addMessage('user', userMessage);
+                chatInput.value = '';
+                getAIResponse(userMessage);
+            }
+        }
+    });
+
+    function addMessage(sender, text) {
+        const message = document.createElement('div');
+        message.classList.add('message', sender);
+        message.textContent = text;
+        messages.appendChild(message);
+        messages.scrollTop = messages.scrollHeight;
+    }
+
+    function getAIResponse(userMessage) {
+        typingIndicator.style.display = 'block';
+        // Simulate API call
+        setTimeout(() => {
+            typingIndicator.style.display = 'none';
+            const aiResponse = `AI response to: ${userMessage}`;
+            addMessage('ai', aiResponse);
+        }, 1000);
+    }
+
+    // Add functionality for new features
+    // Example: Learning tab
+    const learningTab = document.getElementById('learning');
+    const addLearningTopicButton = document.createElement('button');
+    addLearningTopicButton.textContent = 'Add Learning Topic';
+    learningTab.appendChild(addLearningTopicButton);
+
+    addLearningTopicButton.addEventListener('click', () => {
+        const topic = prompt('Enter learning topic:');
+        const hours = prompt('Enter hours spent:');
+        if (topic && hours) {
+            const learningList = document.createElement('ul');
+            const learningItem = document.createElement('li');
+            learningItem.textContent = `${topic} - ${hours} hours`;
+            learningList.appendChild(learningItem);
+            learningTab.appendChild(learningList);
+            alert('Learning topic added!');
+        }
+    });
+
+    // Repeat similar functionality for other tabs
+});
