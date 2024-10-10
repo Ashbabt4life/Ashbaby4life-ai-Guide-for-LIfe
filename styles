@@ -1,0 +1,46 @@
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#quick-replies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+.quick-reply {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.quick-reply:hover {
+    background-color: #d0d0d0;
+}
+
+/* Add styles for new tabs */
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+/* Styles for new tabs */
+#learning, #rewards, #meal-planning, #workouts, #travel-planning, #events, #diary, #reading-list, #language-learning, #fitness-goals, #mindfulness-journal, #vision-board, #budgeting, #skills, #workout-schedule, #dietary-tracking, #sleep-tracking, #mood-tracking, #gratitude-reflection, #meditation-log, #personal-goals, #habit-tracker, #personal-projects, #life-goals, #wellness-journal, #learning-resources, #social-connections, #financial-records, #meal-tracking, #skill-development, #book-tracking, #fitness-activities, #daily-tasks, #financial-entries, #goal-setting, #habit-tracking, #gratitude-entries, #mood-entries, #task-management, #project-management {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 1em;
+    background-color: #f9f9f9;
+}
