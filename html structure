@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Support App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#social">Social</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#rewards">Rewards</a></li>
+                <li><a href="#meal-planning">Meal Planning</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#travel-planning">Travel Planning</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#diary">Diary</a></li>
+                <li><a href="#reading-list">Reading List</a></li>
+                <li><a href="#language-learning">Language Learning</a></li>
+                <li><a href="#fitness-goals">Fitness Goals</a></li>
+                <li><a href="#mindfulness-journal">Mindfulness Journal</a></li>
+                <li><a href="#vision-board">Vision Board</a></li>
+                <li><a href="#budgeting">Budgeting</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#workout-schedule">Workout Schedule</a></li>
+                <li><a href="#dietary-tracking">Dietary Tracking</a></li>
+                <li><a href="#sleep-tracking">Sleep Tracking</a></li>
+                <li><a href="#mood-tracking">Mood Tracking</a></li>
+                <li><a href="#gratitude-reflection">Gratitude Reflection</a></li>
+                <li><a href="#meditation-log">Meditation Log</a></li>
+                <li><a href="#personal-goals">Personal Goals</a></li>
+                <li><a href="#habit-tracker">Habit Tracker</a></li>
+                <li><a href="#personal-projects">Personal Projects</a></li>
+                <li><a href="#life-goals">Life Goals</a></li>
+                <li><a href="#wellness-journal">Wellness Journal</a></li>
+                <li><a href="#learning-resources">Learning Resources</a></li>
+                <li><a href="#social-connections">Social Connections</a></li>
+                <li><a href="#financial-records">Financial Records</a></li>
+                <li><a href="#meal-tracking">Meal Tracking</a></li>
+                <li><a href="#skill-development">Skill Development</a></li>
+                <li><a href="#book-tracking">Book Tracking</a></li>
+                <li><a href="#fitness-activities">Fitness Activities</a></li>
+                <li><a href="#daily-tasks">Daily Tasks</a></li>
+                <li><a href="#financial-entries">Financial Entries</a></li>
+                <li><a href="#goal-setting">Goal Setting</a></li>
+                <li><a href="#habit-tracking">Habit Tracking</a></li>
+                <li><a href="#gratitude-entries">Gratitude Entries</a></li>
+                <li><a href="#mood-entries">Mood Entries</a></li>
+                <li><a href="#task-management">Task Management</a></li>
+                <li><a href="#project-management">Project Management</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="dashboard">
+            <!-- Dashboard content -->
+        </section>
+        <section id="chat">
+            <div id="chat-window">
+                <div id="messages"></div>
+                <div id="typing-indicator">AI is typing...</div>
+                <input type="text" id="chat-input" placeholder="Ask about any life challenge...">
+            </div>
+        </section>
+        <section id="profile">
+            <!-- Profile content -->
+        </section>
+        <section id="goals">
+            <!-- Goals content -->
+        </section>
+        <section id="social">
+            <!-- Social content -->
+        </section>
+        <section id="learning">
+            <!-- Learning content -->
+        </section>
+        <section id="rewards">
+            <!-- Rewards content -->
+        </section>
+        <section id="meal-planning">
+            <!-- Meal Planning content -->
+        </section>
+        <section id="workouts">
+            <!-- Workouts content -->
+        </section>
+        <section id="travel-planning">
+            <!-- Travel Planning content -->
+        </section>
+        <section id="events">
+            <!-- Events content -->
+        </section>
+        <section id="diary">
+            <!-- Diary content -->
+        </section>
+        <section id="reading-list">
+            <!-- Reading List content -->
+        </section>
+        <section id="language-learning">
+            <!-- Language Learning content -->
+        </section>
+        <section id="fitness-goals">
+            <!-- Fitness Goals content -->
+        </section>
+        <section id="mindfulness-journal">
+            <!-- Mindfulness Journal content -->
+        </section>
+        <section id="vision-board">
+            <!-- Vision Board content -->
+        </section>
+        <section id="budgeting">
+            <!-- Budgeting content -->
+        </section>
+        <section id="skills">
+            <!-- Skills content -->
+        </section>
+        <section id="workout-schedule">
+            <!-- Workout Schedule content -->
+        </section>
+        <section id="dietary-tracking">
+            <!-- Dietary Tracking content -->
+        </section>
+        <section id="sleep-tracking">
+            <!-- Sleep Tracking content -->
+        </section>
+        <section id="mood-tracking">
+            <!-- Mood Tracking content -->
+        </section>
+        <section id="gratitude-reflection">
+            <!-- Gratitude Reflection content -->
+        </section>
+        <section id="meditation-log">
+            <!-- Meditation Log content -->
+        </section>
+        <section id="personal-goals">
+            <!-- Personal Goals content -->
+        </section>
+        <section id="habit-tracker">
+            <!-- Habit Tracker content -->
+        </section>
+        <section id="personal-projects">
+            <!-- Personal Projects content -->
+        </section>
+        <section id="life-goals">
+            <!-- Life Goals content -->
+        </section>
+        <section id="wellness-journal">
+            <!-- Wellness Journal content -->
+        </section>
+        <section id="learning-resources">
+            <!-- Learning Resources content -->
+        </section>
+        <section id="social-connections">
+            <!-- Social Connections content -->
+        </section>
+        <section id="financial-records">
+            <!-- Financial Records content -->
+        </section>
+        <section id="meal-tracking">
+            <!-- Meal Tracking content -->
+        </section>
+        <section id="skill-development">
+            <!-- Skill Development content -->
+        </section>
+        <section id="book-tracking">
+            <!-- Book Tracking content -->
+        </section>
+        <section id="fitness-activities">
+            <!-- Fitness Activities content -->
+        </section>
+        <section id="daily-tasks">
+            <!-- Daily Tasks content -->
+        </section>
+        <section id="financial-entries">
+            <!-- Financial Entries content -->
+        </section>
+        <section id="goal-setting">
+            <!-- Goal Setting content -->
+        </section>
+        <section id="habit-tracking">
+            <!-- Habit Tracking content -->
+        </section>
+        <section id="gratitude-entries">
+            <!-- Gratitude Entries content -->
+        </section>
+        <section id="mood-entries">
+            <!-- Mood Entries content -->
+        </section>
+        <section id="task-management">
+            <!-- Task Management content -->
+        </section>
+        <section id="project-management">
+            <!-- Project Management content -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 AI-Powered Support App</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
